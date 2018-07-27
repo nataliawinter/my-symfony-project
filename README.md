@@ -2,23 +2,15 @@
 
 ## Steps
 
-git clone `git@github.com:nataliawinter/my-symfony-project.git`
+`git clone git@github.com:nataliawinter/my-symfony-project.git`
 
-What's next?
-
-Run your application:
-
-Change to the project directory
-
-Create your code repository with the `git init` command
+`composer install`
 
 Execute the `php -S 127.0.0.1:8000 -t public` command
 
 Browse to the `http://localhost:8000/` URL.
 
 Quit the server with CTRL-C. Run composer `require server --dev` for a better web server.
-
-Read the documentation at https://symfony.com/doc
 
 ## Database Configuration
 Modify your `DATABASE_URL` config in `.env`
