@@ -1,4 +1,6 @@
-# my-symfony-project
+# My Symfony Project
+
+- I have a friend, who often talked about symfony. Until one day, so curious, I decided to check what the framework was so special. So this is my repository where I'm learning symfony. Thanks @caioguedes
 
 ## Steps
 
@@ -19,3 +21,11 @@ Configure the driver (mysql) and server_version (5.7) in config/packages/doctrin
 ## How to test?
 Write test cases in the `tests/` folder
 Run `php bin/phpunit`
+
+## Generating Controllers
+
+`php bin/console make:controller BrandNewController`
+
+## More info about Recipes
+
+`https://symfony.com/doc/current/page_creation.html`
